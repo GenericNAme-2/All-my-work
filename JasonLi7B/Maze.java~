@@ -1,0 +1,63 @@
+/**
+ * Jason Li
+ * Ms. Krasteva
+ * 2019/04/15
+ * Solution of problem 4. This is a program to see whether a maze can be solved.
+ */
+public class Maze {
+  
+  //Checks if a coordinate is valid (it's a path and it's inside the maze)
+  static boolean validPath(int maze[][], int x, int y) 
+    { 
+        int Nx = maze.length, Ny = maze[0].length; //these are the dimensions of the maze
+        // if (x,y outside maze) return false 
+        return (x >= 0 && x < Nx && y >= 0 && 
+                y < Ny && maze[x][y] == 0); 
+    } 
+   //Solves a maze and returns whether or not it can be solved.
+   private static boolean solveMaze(int maze[][], int x, int y) 
+    { 
+        int Nx = maze.length, Ny = maze[0].length;
+        // if the exit has been reached
+        if (x == Nx - 1 && y == Ny - 1) 
+        { 
+            return true; 
+        } 
+  
+        // Check if maze[x][y] is valid 
+        if (validPath(maze, x, y) == true) 
+        { 
+  
+            // Move forward in x direction
+            if (solveMaze(maze, x + 1, y)) 
+                return true; 
+  
+            // If moving in x direction doesn't work,
+            // Move down in y direction 
+            if (solveMaze(maze, x, y + 1)) 
+                return true; 
+            return false; 
+        } 
+        return false; 
+    } 
+  //main method to test solveMaze
+  public static void main(String[] args) { 
+    //this is the maze with 0 representing paths and 1s representing walls
+    int [][] maze =   {{0, 1, 1, 1, 1},
+                      {0, 0, 0, 0, 1},
+                      {1, 0, 1, 0, 1},
+                      {1, 0, 1, 0, 1},
+                      {1, 1, 1, 0, 1}};
+    //prints the result
+    System.out.print("Can this maze be solved? ");
+    if(solveMaze(maze, 0,0))
+      System.out.print("Yes");
+    else
+      System.out.print("No");
+                    
+      
+  }
+  
+  
+  
+}

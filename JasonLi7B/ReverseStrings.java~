@@ -1,0 +1,19 @@
+import java.util.Scanner;
+/**
+ * Jason Li
+ */
+public class ReverseStrings {
+  static Scanner in = new Scanner(System.in);
+  private static void revStrings()
+  {
+    String s = in.nextLine();
+    if (!s.equals("."))
+        revStrings();
+    System.out.println(s);
+}
+  
+  public static void main (String[] args){
+    revStrings();
+  }
+  
+}

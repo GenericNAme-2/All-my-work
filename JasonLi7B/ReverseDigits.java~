@@ -1,0 +1,17 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class ReverseDigits {
+  
+  private static int revDigits(int n)
+  {
+   if(n < 10)                                                     
+     return n;
+   return (n%10) * (int)(Math.pow(10 , (int)Math.log10(n))) + revDigits(n/10);
+  }
+  
+  public static void main (String[] args){
+    System.out.println(revDigits(12345));
+  }
+  
+}
