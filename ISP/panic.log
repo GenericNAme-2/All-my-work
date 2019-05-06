@@ -1,0 +1,539 @@
+*** ENVIRONMENT CRASH ***
+
+Date: Jan 10 2019 4:25 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: Oct 7 2003 4:57 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Set Selection (2) - sz:381:9862 - slFr:608 - slTo:608 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Goto Error - sz:381:9862 - slFr:608 - slTo:608 - nlA:0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 18
+    Text - sz:381:9862 - slFr:26:16:608 - slTo:26:16:608 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1668 - slTo:1668 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 18 (x1)
+    Text - sz:381:9862 - slFr:68:18:1668 - slTo:68:18:1668 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 15
+    Text - sz:381:9862 - slFr:1668 - slTo:1668 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1665 - slTo:1665 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 15 (x1)
+    Text - sz:381:9862 - slFr:68:15:1665 - slTo:68:15:1665 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 19
+    Text - sz:381:9862 - slFr:1665 - slTo:1665 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1669 - slTo:1669 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 19 (x1)
+    Text - sz:381:9862 - slFr:68:19:1669 - slTo:68:19:1669 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 22
+    Text - sz:381:9862 - slFr:1669 - slTo:1669 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1672 - slTo:1672 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 22 (x1)
+    Text - sz:381:9862 - slFr:68:22:1672 - slTo:68:22:1672 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 71 - C: 21
+    Text - sz:381:9862 - slFr:1672 - slTo:1672 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1735 - slTo:1735 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 71 - C: 21 (x1)
+    Text - sz:381:9862 - slFr:71:18:1735 - slTo:71:18:1735 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:381:9862 - slFr:1735 - slTo:1735 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Undo (2) - Undo size: 2 - Repl from: 608 - Repl to: 608
+    Insert Text (1) - Text: 21cb1b8 - size: 2 - clean: 1
+    Text - sz:381:9862 - slFr:608 - slTo:608 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:381:9864 - slFr:610 - slTo:610 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+    Undo (3) - sz:381:9864 - slFr:610 - slTo:610 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:381:9864 - slFr:26:18:610 - slTo:26:18:610 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+    Undo (2) - Undo size: 2 - Repl from: 454 - Repl to: 454
+    Insert Text (1) - Text: 21cb1b8 - size: 2 - clean: 1
+    Text - sz:381:9864 - slFr:26:18:454 - slTo:26:18:454 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:381:9866 - slFr:456 - slTo:456 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+    Undo (3) - sz:381:9866 - slFr:456 - slTo:456 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:381:9866 - slFr:17:26:456 - slTo:17:26:456 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+    Undo (2) - Undo size: 0 - Repl from: 593 - Repl to: 621
+    Delete Selection (1) - Text: 21cb1b8
+    Text - sz:381:9866 - slFr:17:26:593 - slTo:17:26:621 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+    Delete Selection (2) - From line: 17 - From col: 26 - To line: 17 - To col: 26
+    Delete Selection (3) - sz:380:9838 - slFr:593 - slTo:593 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+    Undo (3) - sz:380:9838 - slFr:593 - slTo:593 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:380:9838 - slFr:25:17:593 - slTo:25:17:593 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+    Undo (2) - Undo size: 0 - Repl from: 1692 - Repl to: 1711
+    Delete Selection (1) - Text: 21cb1b8
+    Text - sz:380:9838 - slFr:25:17:1692 - slTo:25:17:1711 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+    Delete Selection (2) - From line: 25 - From col: 17 - To line: 25 - To col: 17
+    Delete Selection (3) - sz:379:9819 - slFr:1692 - slTo:1692 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+    Undo (3) - sz:379:9819 - slFr:1692 - slTo:1692 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 88 - C: 24
+    Text - sz:379:9819 - slFr:69:32:1692 - slTo:69:32:1692 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+    Set Selection (2) - sz:379:9819 - slFr:2400 - slTo:2400 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+    Extend Selection - Text: 21cb1b8 - L: 88 - C: 24 (x2)
+    Text - sz:379:9819 - slFr:2400 - slTo:2400 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 88 - C: 24 (x1)
+    Text - sz:379:9819 - slFr:2400 - slTo:2400 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Save File (1) - Window: 70630 - SaveAs: 0 - Sel: 0 - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Save File (2) - name: F:\ISP\WordSearch USB version.java - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_OPEN_FILE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Create File (W1) - Name: F:\ISP\WordSearch.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: c016c - Name: F:\ISP\WordSearch.java
+    Set New Text (1) - Text: b7b3eb8 - size: 8263
+    Set New Text (2) - sz:374:9737 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 371:9733 372:9735 373:9736 374:9737
+
+
+Registers
+  EAX=00000000  EBX=00448681  ECX=00000000  EDX=0B5CC468  ESI=00000061
+  EDI=0019B9E0  EBP=0019B1BC  ESP=0019B194  EIP=00414B1E  FLG=00210202
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+Not enough space for modules.
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Jan 10 2019 4:25 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: Oct 7 2003 4:57 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Set Selection (2) - sz:381:9862 - slFr:608 - slTo:608 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Goto Error - sz:381:9862 - slFr:608 - slTo:608 - nlA:0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 18
+    Text - sz:381:9862 - slFr:26:16:608 - slTo:26:16:608 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1668 - slTo:1668 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 18 (x1)
+    Text - sz:381:9862 - slFr:68:18:1668 - slTo:68:18:1668 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 15
+    Text - sz:381:9862 - slFr:1668 - slTo:1668 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1665 - slTo:1665 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 15 (x1)
+    Text - sz:381:9862 - slFr:68:15:1665 - slTo:68:15:1665 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 19
+    Text - sz:381:9862 - slFr:1665 - slTo:1665 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1669 - slTo:1669 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 19 (x1)
+    Text - sz:381:9862 - slFr:68:19:1669 - slTo:68:19:1669 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 68 - C: 22
+    Text - sz:381:9862 - slFr:1669 - slTo:1669 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1672 - slTo:1672 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 68 - C: 22 (x1)
+    Text - sz:381:9862 - slFr:68:22:1672 - slTo:68:22:1672 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 71 - C: 21
+    Text - sz:381:9862 - slFr:1672 - slTo:1672 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Set Selection (2) - sz:381:9862 - slFr:1735 - slTo:1735 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 71 - C: 21 (x1)
+    Text - sz:381:9862 - slFr:71:18:1735 - slTo:71:18:1735 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:381:9862 - slFr:1735 - slTo:1735 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Undo (2) - Undo size: 2 - Repl from: 608 - Repl to: 608
+    Insert Text (1) - Text: 21cb1b8 - size: 2 - clean: 1
+    Text - sz:381:9862 - slFr:608 - slTo:608 - nlA:0
+    Line Starts: 378:9858 379:9860 380:9861 381:9862
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:381:9864 - slFr:610 - slTo:610 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+    Undo (3) - sz:381:9864 - slFr:610 - slTo:610 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:381:9864 - slFr:26:18:610 - slTo:26:18:610 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+    Undo (2) - Undo size: 2 - Repl from: 454 - Repl to: 454
+    Insert Text (1) - Text: 21cb1b8 - size: 2 - clean: 1
+    Text - sz:381:9864 - slFr:26:18:454 - slTo:26:18:454 - nlA:0
+    Line Starts: 378:9860 379:9862 380:9863 381:9864
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:381:9866 - slFr:456 - slTo:456 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+    Undo (3) - sz:381:9866 - slFr:456 - slTo:456 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:381:9866 - slFr:17:26:456 - slTo:17:26:456 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+    Undo (2) - Undo size: 0 - Repl from: 593 - Repl to: 621
+    Delete Selection (1) - Text: 21cb1b8
+    Text - sz:381:9866 - slFr:17:26:593 - slTo:17:26:621 - nlA:0
+    Line Starts: 378:9862 379:9864 380:9865 381:9866
+    Delete Selection (2) - From line: 17 - From col: 26 - To line: 17 - To col: 26
+    Delete Selection (3) - sz:380:9838 - slFr:593 - slTo:593 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+    Undo (3) - sz:380:9838 - slFr:593 - slTo:593 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 21cb1b8 - Undo: 1
+    Text - sz:380:9838 - slFr:25:17:593 - slTo:25:17:593 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+    Undo (2) - Undo size: 0 - Repl from: 1692 - Repl to: 1711
+    Delete Selection (1) - Text: 21cb1b8
+    Text - sz:380:9838 - slFr:25:17:1692 - slTo:25:17:1711 - nlA:0
+    Line Starts: 377:9834 378:9836 379:9837 380:9838
+    Delete Selection (2) - From line: 25 - From col: 17 - To line: 25 - To col: 17
+    Delete Selection (3) - sz:379:9819 - slFr:1692 - slTo:1692 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+    Undo (3) - sz:379:9819 - slFr:1692 - slTo:1692 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 21cb1b8 - L: 88 - C: 24
+    Text - sz:379:9819 - slFr:69:32:1692 - slTo:69:32:1692 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+    Set Selection (2) - sz:379:9819 - slFr:2400 - slTo:2400 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+    Extend Selection - Text: 21cb1b8 - L: 88 - C: 24 (x2)
+    Text - sz:379:9819 - slFr:2400 - slTo:2400 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 21cb1b8 - L: 88 - C: 24 (x1)
+    Text - sz:379:9819 - slFr:2400 - slTo:2400 - nlA:0
+    Line Starts: 376:9815 377:9817 378:9818 379:9819
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Save File (1) - Window: 70630 - SaveAs: 0 - Sel: 0 - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Save File (2) - name: F:\ISP\WordSearch USB version.java - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_OPEN_FILE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Create File (W1) - Name: F:\ISP\WordSearch.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: c016c - Name: F:\ISP\WordSearch.java
+    Set New Text (1) - Text: b7b3eb8 - size: 8263
+    Set New Text (2) - sz:374:9737 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 371:9733 372:9735 373:9736 374:9737
+
+
+Registers
+  EAX=00000000  EBX=00448681  ECX=00000000  EDX=0B5CC468  ESI=00000061
+  EDI=0019B9E0  EBP=0019B1BC  ESP=0019B194  EIP=00414B1E  FLG=00210202
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+Not enough space for modules.
+
+------------------------------------------------------
+
+Crashed in Crash Handler!
+*** FATAL INTERNAL ERROR in "Ready" ***
+Date: Jan 15 2019 7:28 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: Oct 7 2003 4:57 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Previous Operations:
+    Line Starts: 1202:36984 1203:36990 1204:36992 1205:36993
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 8e8c30 - L: 325 - C: 59 (x1)
+    Text - sz:1205:36993 - slFr:10643 - slTo:10622 - nlA:0
+    Line Starts: 1202:36984 1203:36990 1204:36992 1205:36993
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_COPY
+    Cut/Copy (1) - Window: 1a0778 - Cut: 0
+    Cut/Copy (2) - from:325:59:10643 - to:325:80:10622 - lines:1 - nla: 1205
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_REPLACE
+  CMD: WM_ACTIVATE (W)
+    Find Repl All (1) - Window: 1a0778
+    Set Selection1 (1) - Text: 8e8c30 - From: 7227 - To: 7242
+    Text - sz:1205:36993 - slFr:325:80:0 - slTo:325:59:0 - nlA:0
+    Line Starts: 1202:36984 1203:36990 1204:36992 1205:36993
+    Delete Selection (1) - Text: 8e8c30
+    Text - sz:1205:36993 - slFr:7227 - slTo:7242 - nlA:0
+    Line Starts: 1202:36984 1203:36990 1204:36992 1205:36993
+    Delete Selection (2) - From line: 241 - From col: 62 - To line: 241 - To col: 77
+    Delete Selection (3) - sz:1205:36978 - slFr:7227 - slTo:7227 - nlA:0
+    Line Starts: 1202:36969 1203:36975 1204:36977 1205:36978
+    Insert Text (1) - Text: 8e8c30 - size: 21 - clean: 1
+    Text - sz:1205:36978 - slFr:7227 - slTo:7227 - nlA:0
+    Line Starts: 1202:36969 1203:36975 1204:36977 1205:36978
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:1205:36999 - slFr:7248 - slTo:7248 - nlA:0
+    Line Starts: 1202:36990 1203:36996 1204:36998 1205:36999
+    Set Selection1 (1) - Text: 8e8c30 - From: 10628 - To: 10643
+    Text - sz:1205:36999 - slFr:7248 - slTo:7248 - nlA:0
+    Line Starts: 1202:36990 1203:36996 1204:36998 1205:36999
+    Delete Selection (1) - Text: 8e8c30
+    Text - sz:1205:36999 - slFr:10628 - slTo:10643 - nlA:0
+    Line Starts: 1202:36990 1203:36996 1204:36998 1205:36999
+    Delete Selection (2) - From line: 325 - From col: 59 - To line: 325 - To col: 74
+    Delete Selection (3) - sz:1205:36984 - slFr:10628 - slTo:10628 - nlA:0
+    Line Starts: 1202:36975 1203:36981 1204:36983 1205:36984
+    Insert Text (1) - Text: 8e8c30 - size: 21 - clean: 1
+    Text - sz:1205:36984 - slFr:10628 - slTo:10628 - nlA:0
+    Line Starts: 1202:36975 1203:36981 1204:36983 1205:36984
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:1205:37005 - slFr:10649 - slTo:10649 - nlA:0
+    Line Starts: 1202:36996 1203:37002 1204:37004 1205:37005
+    Set Selection1 (1) - Text: 8e8c30 - From: 33466 - To: 33481
+    Text - sz:1205:37005 - slFr:10649 - slTo:10649 - nlA:0
+    Line Starts: 1202:36996 1203:37002 1204:37004 1205:37005
+    Delete Selection (1) - Text: 8e8c30
+    Text - sz:1205:37005 - slFr:33466 - slTo:33481 - nlA:0
+    Line Starts: 1202:36996 1203:37002 1204:37004 1205:37005
+    Delete Selection (2) - From line: 1053 - From col: 54 - To line: 1053 - To col: 69
+    Delete Selection (3) - sz:1205:36990 - slFr:33466 - slTo:33466 - nlA:0
+    Line Starts: 1202:36981 1203:36987 1204:36989 1205:36990
+    Insert Text (1) - Text: 8e8c30 - size: 21 - clean: 1
+    Text - sz:1205:36990 - slFr:33466 - slTo:33466 - nlA:0
+    Line Starts: 1202:36981 1203:36987 1204:36989 1205:36990
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:1205:37011 - slFr:33487 - slTo:33487 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Set Selection1 (1) - Text: 8e8c30 - From: 34646 - To: 34661
+    Text - sz:1205:37011 - slFr:33487 - slTo:33487 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Delete Selection (1) - Text: 8e8c30
+    Text - sz:1205:37011 - slFr:34646 - slTo:34661 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Delete Selection (2) - From line: 1103 - From col: 55 - To line: 1103 - To col: 70
+    Delete Selection (3) - sz:1205:36996 - slFr:34646 - slTo:34646 - nlA:0
+    Line Starts: 1202:36987 1203:36993 1204:36995 1205:36996
+    Insert Text (1) - Text: 8e8c30 - size: 21 - clean: 1
+    Text - sz:1205:36996 - slFr:34646 - slTo:34646 - nlA:0
+    Line Starts: 1202:36987 1203:36993 1204:36995 1205:36996
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:1205:37017 - slFr:34667 - slTo:34667 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Find Repl All (2) - sz:1205:37017 - slFr:34667 - slTo:34667 - nlA:0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 8e8c30 - L: 1103 - C: 82
+    Text - sz:1205:37017 - slFr:1103:76:34667 - slTo:1103:76:34667 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Set Selection (2) - sz:1205:37017 - slFr:34673 - slTo:34673 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Extend Selection - Text: 8e8c30 - L: 1103 - C: 76 (x44)
+    Text - sz:1205:37017 - slFr:34673 - slTo:34668 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 8e8c30 - L: 1103 - C: 76 (x1)
+    Text - sz:1205:37017 - slFr:1103:82:34673 - slTo:1103:76:34667 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 8e8c30 - ch: 8
+    Text - sz:1205:37017 - slFr:34673 - slTo:34667 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Delete Selection (1) - Text: 8e8c30
+    Text - sz:1205:37017 - slFr:34673 - slTo:34667 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Delete Selection (2) - From line: 1103 - From col: 76 - To line: 1103 - To col: 82
+    Delete Selection (3) - sz:1205:37011 - slFr:34667 - slTo:34667 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Keystroke (2) - sz:1205:37011 - slFr:34667 - slTo:34667 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 8e8c30 - L: 1097 - C: 121
+    Text - sz:1205:37011 - slFr:1103:76:34667 - slTo:1103:76:34667 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Set Selection (2) - sz:1205:37011 - slFr:34473 - slTo:34473 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Extend Selection - Text: 8e8c30 - L: 1097 - C: 121 (x2)
+    Text - sz:1205:37011 - slFr:34473 - slTo:34473 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 8e8c30 - L: 1097 - C: 121 (x1)
+    Text - sz:1205:37011 - slFr:34473 - slTo:34473 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 8e8c30 - Undo: 1
+    Text - sz:1205:37011 - slFr:34473 - slTo:34473 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Undo (2) - Undo size: 6 - Repl from: 34667 - Repl to: 34667
+    Insert Text (1) - Text: 8e8c30 - size: 6 - clean: 1
+    Text - sz:1205:37011 - slFr:34667 - slTo:34667 - nlA:0
+    Line Starts: 1202:37002 1203:37008 1204:37010 1205:37011
+    Insert Text (2) - numNewLines: 0
+    Insert Text (3) - sz:1205:37017 - slFr:34673 - slTo:34673 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Undo (3) - sz:1205:37017 - slFr:34673 - slTo:34667 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 8e8c30 - Undo: 1
+    Text - sz:1205:37017 - slFr:1103:82:34673 - slTo:1103:76:34667 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Undo (2) - Undo size: 29766 - Repl from: 7227 - Repl to: 37017
+    Delete Selection (1) - Text: 8e8c30
+    Text - sz:1205:37017 - slFr:1103:82:7227 - slTo:1103:76:37017 - nlA:0
+    Line Starts: 1202:37008 1203:37014 1204:37016 1205:37017
+    Delete Selection (2) - From line: 1103 - From col: 76 - To line: 1103 - To col: 82
+    Delete Selection (3) - sz:242:7228 - slFr:7227 - slTo:7227 - nlA:1
+    Line Starts: 239:7127 240:7147 241:7165 242:7228
+    Insert Text (1) - Text: 8e8c30 - size: 29766 - clean: 1
+    Text - sz:242:7228 - slFr:7227 - slTo:7227 - nlA:1
+    Line Starts: 239:7127 240:7147 241:7165 242:7228
+    Insert Text (2) - numNewLines: 964
+    Insert Text (3) - sz:1205:36993 - slFr:36993 - slTo:36993 - nlA:0
+    Line Starts: 1202:36984 1203:36990 1204:36992 1205:36993
+    Undo (3) - sz:1205:36993 - slFr:7227 - slTo:7242 - nlA:0
+    Line Starts: 1202:36984 1203:36990 1204:36992 1205:36993
+  CMD: WM_INITMENU (W)
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "F:\ISP\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = LoadString failed (-572662307) (6002)
+   Windows error = The specified resource name cannot be found in the image file. (1814)
+   File = src\edgui.c
+   Line = 1435
+
+All unsaved open files will be saved with a ".sav" or ".sv#" extension.
+
+Not enough space for modules.
+
+
+------------------------------------------------------
