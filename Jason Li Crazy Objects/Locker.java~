@@ -1,0 +1,126 @@
+/**
+ * Lockers have a number and Student owner. They hold a Jacket, which can be put in or taken out, as well as up to four
+ * Books, which can be put in or taken out.
+ *
+ * <h2>Course Info</h2>
+ * ICS4U0 with Krasteva V.
+ *
+ * @author Daniel Voznyy
+ * @version 24.04.19
+ */
+public class Locker {
+    int number;
+    Student owner;
+    private Jacket studentJacket;
+    private Book[] books;
+
+    /**
+     * Locker constructor. Randomly generates a number up to 1000, and lets the locker hold 4 Books
+     *
+     * @param me the owner of the locker
+     */
+    public Locker(Student me) {
+        this.owner = me;
+        this.number = (int) (Math.random() * 1000);
+        this.books = new Book[4];
+
+        //make new books
+        Book ics = new Book();
+        ics.setCourse("ICS");
+        ics.setTitle("AP ICS textbook");
+        Book science = new Book();
+        science.setCourse("Science");
+        science.setTitle("Grade 10 Science");
+        Book math = new Book();
+        math.setCourse("Math");
+        math.setTitle("Principles of Mathematics 10");
+        Book history = new Book();
+        history.setCourse("History");
+        history.setTitle("History from 1900");
+
+        //put them in the locker
+        putABook(ics);
+        putABook(science);
+        putABook(math);
+        putABook(history);
+    }
+
+    /**
+     * Gets a book with the matching course from the locker. Completely removes the original Book from the locker when
+     * taking it out.
+     *
+     * @param course the course to be matched
+     * @return the first book in the list for that course
+     */
+    public Book getABook(String course) {
+        for (int i = 0; i < books.length; i++) {
+            Book b = books[i];
+            if (b.course.equals(course)) {
+                for (int j = 0; j < owner.books.length; j++) {
+                    if(owner.books[j] == null) {
+                        owner.books[j] = b;
+                        books[i] = null;
+                        return b;
+                    }
+                }
+                throw new IllegalArgumentException("Student doesn't have any more space to carry books");
+            }
+        }
+        throw new IllegalArgumentException("Book not found");
+    }
+
+    /**
+     * Puts a book inside the locker. Unlike getABook(), it does not remove the book from whoever is putting it in.
+     *
+     * @param book the Book to be put in
+     */
+    public void putABook(Book book) {
+        for (int i = 0; i < books.length; i++)
+            if (books[i] == null) {
+                books[i] = book;
+                return;
+            }
+        throw new IllegalArgumentException("Locker already full of books");
+    }
+
+    /**
+     * Takes the jacket out of the locker. Removes the jacket from the locker
+     *
+     * @return the Jacket
+     */
+    public Jacket getJacket() {
+        Jacket jacket = this.studentJacket;
+        if (jacket != null) {
+            studentJacket = null;
+            return jacket;
+        } else
+            throw new IllegalArgumentException("No jacket in locker");
+    }
+
+    /**
+     * Shows the Jacket currently in the locker. Does not remove it from the locker
+     *
+     * @return the Jacket in the locker
+     */
+    public Jacket checkJacket() {
+        return studentJacket;
+    }
+
+    /**
+     * Puts the jacket in the locker, and removes it from the student who currently has it in hand.
+     *
+     * @param studentJacket the Jacket to be put in
+     */
+    public void putJacket(Jacket studentJacket) {
+        studentJacket.owner.myJacket = null; //remove the jacket from student
+        if (this.studentJacket == null)
+            this.studentJacket = studentJacket; //put the jacket in locker
+        else
+            throw new IllegalArgumentException("Jacket is already inside locker");
+    }
+
+    @Override
+    public String toString() {
+        return number + " belongs to " + owner;
+    }
+}
